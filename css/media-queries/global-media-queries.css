@@ -1,0 +1,19 @@
+@media screen and ( max-width: 500px) {
+    #nav {
+        display: none;
+    }
+    #burger {
+        width: 375px;
+        height: 100%;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+    }
+    #burger ul {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
