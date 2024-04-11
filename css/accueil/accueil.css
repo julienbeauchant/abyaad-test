@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F9F9F9;
+    color: #202020;
+    background-repeat: no-repeat;
+    font-family: "League Spartan", sans-serif;
+    /* font-optical-sizing: auto; */
+}
+
+/* HEADER ACCUEIL */
+
+header {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* NAVBAR */
+
+.sectionHeaderNav { 
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 35px #202020;
+}
+
+.containerNav {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.containerNav img {
+    width: 13%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* NAVIGATION */
+
+nav {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.containerNavImg {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.containerNavImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.mainHeaderTitle {
+    width: 100vw;
+    height: 80vh;
+    background-image: url("../img/headerAccueil.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.positionContainerHeaderTitle {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerHeaderTitle {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.positionHeaderH1 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.positionHeaderH2 {
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+}
+
+.positionHeaderH1 h1 {
+    font-weight: 800;
+    font-size: 12em;
+    letter-spacing: -10px;
+}
+
+.positionHeaderH2 h2 {
+    font-weight: 200;
+    font-size: 1.5em;
+    letter-spacing: 10px;
+}
+
+.sectionCercleHeaderAccueil {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cercleHeaderAccueil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #202020;
+}
+
+.cercleHeaderAccueil img {
+    width: 25px;
+    height: 25px;
+}
+
+.sectionBanniereDefilanteAccueil {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DDDDDD;
+}
+
+.mainHeaderNouveaute {
+    width: 100vw;
+    height: 100vh;
+}

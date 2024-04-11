@@ -1,0 +1,77 @@
+.containerNav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9F9F9;
+}
+
+.positionNav {
+    position: sticky;
+    top: 0;
+    width: clamp(430px, 90%, 1700px);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.positionLogo {
+    width: 200px;
+    height: 100%;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+nav {
+    width: clamp(430px, 90%, 1700px);
+    /* width: 40%; */
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav ul {
+    width: clamp(430px, 40%, 1700px);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+
+.navLiIcon {
+    width: 35px;
+    aspect-ratio: 1/1;
+}
+
+
+#backgroundImgNavAccueil {
+    background-image: url(../../img/headerAccueil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+
+.containerBackgroundImgNavAccueil {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.positionBackgroundImgNavAccueil {
+    width: 700px;
+    aspect-ratio: 2/2;
+    /* background-color: red; */
+}
