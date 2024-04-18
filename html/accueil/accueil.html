@@ -4,65 +4,250 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon_io/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon_io/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="../img/favicon_io/site.webmanifest">
-    <title>Document</title>
+    <link rel="stylesheet" href="../../css/global.css">
+    <link rel="stylesheet" href="../../css/media-queries/global-media-queries.css">
+    <link rel="stylesheet" href="../../css/header.css">
+    <link rel="stylesheet" href="../../css/accueil/nouveaute.css">
+    <title>Accueil</title>
 </head>
 
 <body>
-    <!-- HEADER ACCUEIL
-    <header>
-        <section class="sectionHeaderNav">
-            <div class="containerNav">
-                <img src="../img/coconut_..svg" alt="">
-                <nav>
-                    <ul>
-                        <li>Femmes</li>
-                        <li>Enfants</li>
-                        <li>Favoris</li>
-                        <li>Contact</li>
-                        <div class="containerNavImg">
-                            <img src="../img/sac-de-courses.png" alt="">
-                        </div>
-                        <div class="containerNavImg">
-                            <img src="../img/utilisateur.png" alt="">
-                        </div>
-                    </ul>
-                </nav>
+    <div class="containerNav">
+        <div class="positionNav">
+            <div class="positionLogo">
+                <img id="logo" src="../../img/logo-abyaad-n.png" alt="">
             </div>
-        </section>
-        <main class="mainHeaderTitle">
-            <div class="positionContainerHeaderTitle">
-                <section class="containerHeaderTitle">
-                    <div class="positionHeaderH1">
+            <nav id="nav">
+                <ul>
+                    <li><a href="../html/femmes/femmes.html">Femmes</a></li>
+                    <li><a href="../html/enfants/enfants.html">Enfants</a></li>
+                    <li><a href="../html/favoris/favoris.html">Favoris</a></li>
+                    <li><a href="../html/contact/contact.html">Contact</a></li>
+                    <li><a href="../html/panier/panier.html"><img class="navLiIcon" src="../../img/sac-de-courses.png"
+                                alt=""></a></li>
+                    <li><a href="../html/connexion/connexion.html"><img class="navLiIcon"
+                                src="../../img/utilisateur.png" alt=""></a></li>
+                </ul>
+            </nav>
+            <nav id="burger">
+                <ul>
+                    <li><a href="../html/panier/panier.html"><img class="navLiIcon" src="../../img/sac-de-courses.png"
+                                alt=""></a></li>
+                    <li><a href=""><img class="navLiIcon" src="../../img/menu.png" alt=""></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <header>
+        <div id="backgroundImg">
+            <div class="containerBackgroundImg">
+                <div class="positionBackgroundImgTitle">
+                    <div class="backgroundImgTitle">
                         <h1>Abyaad</h1>
+                        <H2>une marque pour vous</H2>
                     </div>
-                    <div class="positionHeaderH2">
-                        <h2>une marque pour vous</h2>
-                    </div>
-                    <section class="sectionCercleHeaderAccueil">
-                        <div class="cercleHeaderAccueil">
-                            <img src="../img/chevron-bas.png" alt="">
+                    <div class="containerBackgroundImgfleche">
+                        <div class="positionBackgroundImgfleche">
+                            <img src="../../img/fleche-vers-le-bas.png" alt="">
                         </div>
-                    </section>
-                </section>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="containerBanniereDefilante">
+            <marquee>ceci est une banniere defilante</marquee>
+        </div>
+        <main class="containerNouveaute">
+            <div class="positionNouveaute">
+                <div class="nouveaute">
+                    <h3>Nouvautés</h3>
+                </div>
+            </div>
+            <div class="positionTitleFemme">
+                <p>Femmes</p>
+            </div>
+            <div class="containerFemme">
+                <div class="positionFemme">
+                    <div class="carte">
+                        <div class="carteImg">
+                            <img src="../../img/coconut_..svg" alt="">
+                        </div>
+                        <div class="containerInteraction">
+                            <div class="prix">
+                                <p>0€</p>
+                            </div>
+                            <div class="ajout">
+                                <p>+</p>
+                            </div>
+                            <div class="like">
+                                <p><3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carte">
+                        <div class="carteImg">
+                            <img src="../../img/coconut_..svg" alt="">
+                        </div>
+                        <div class="containerInteraction">
+                            <div class="prix">
+                                <p>0€</p>
+                            </div>
+                            <div class="ajout">
+                                <p>+</p>
+                            </div>
+                            <div class="like">
+                                <p><3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carte">
+                        <div class="carteImg">
+                            <img src="../../img/coconut_..svg" alt="">
+                        </div>
+                        <div class="containerInteraction">
+                            <div class="prix">
+                                <p>0€</p>
+                            </div>
+                            <div class="ajout">
+                                <p>+</p>
+                            </div>
+                            <div class="like">
+                                <p><3</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            </div>
+            <div class="containerBtn">
+                <div class="btn">
+                    <p>Voir plus</p>
+                </div>
+            </div>
+            <div class="positionTitleFille">
+                <p>Filles</p>
+            </div>
+            <div class="containerFille">
+                <div class="positionFille">
+                    <div class="carte">
+                        <div class="carteImg">
+                            <img src="../../img/coconut_..svg" alt="">
+                        </div>
+                        <div class="containerInteraction">
+                            <div class="prix">
+                                <p>0€</p>
+                            </div>
+                            <div class="ajout">
+                                <p>+</p>
+                            </div>
+                            <div class="like">
+                                <p><3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carte">
+                        <div class="carteImg">
+                            <img src="../../img/coconut_..svg" alt="">
+                        </div>
+                        <div class="containerInteraction">
+                            <div class="prix">
+                                <p>0€</p>
+                            </div>
+                            <div class="ajout">
+                                <p>+</p>
+                            </div>
+                            <div class="like">
+                                <p><3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carte">
+                        <div class="carteImg">
+                            <img src="../../img/coconut_..svg" alt="">
+                        </div>
+                        <div class="containerInteraction">
+                            <div class="prix">
+                                <p>0€</p>
+                            </div>
+                            <div class="ajout">
+                                <p>+</p>
+                            </div>
+                            <div class="like">
+                                <p><3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containerBtn">
+                <div class="btn">
+                    <p>Voir plus</p>
+                </div>
+            </div>
+            <div class="positionTitleGarcon">
+                <p>Garçons</p>
+            </div>
+            <div class="containerGarcon">
+                <div class="positionGarcon">
+                    <div class="carte">
+                        <div class="carteImg">
+                            <img src="../../img/coconut_..svg" alt="">
+                        </div>
+                        <div class="containerInteraction">
+                            <div class="prix">
+                                <p>0€</p>
+                            </div>
+                            <div class="ajout">
+                                <p>+</p>
+                            </div>
+                            <div class="like">
+                                <p><3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carte">
+                        <div class="carteImg">
+                            <img src="../../img/coconut_..svg" alt="">
+                        </div>
+                        <div class="containerInteraction">
+                            <div class="prix">
+                                <p>0€</p>
+                            </div>
+                            <div class="ajout">
+                                <p>+</p>
+                            </div>
+                            <div class="like">
+                                <p><3</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carte">
+                        <div class="carteImg">
+                            <img src="../../img/coconut_..svg" alt="">
+                        </div>
+                        <div class="containerInteraction">
+                            <div class="prix">
+                                <p>0€</p>
+                            </div>
+                            <div class="ajout">
+                                <p>+</p>
+                            </div>
+                            <div class="like">
+                                <p><3</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containerBtn">
+                <div class="btn">
+                    <p>Voir plus</p>
+                </div>
             </div>
         </main>
-        <section class="sectionBanniereDefilanteAccueil">
-            <p>Ceci est une bannière défilante de la droite vers la gauche</p>
-        </section>
-    </header>
-    <main class="mainHeaderNouveaute">
-        <section class="positionContainerHeaderNouveaute">
-            <h3>Nouveautés</h3>
-        </section>
-    </main> -->
 </body>
 
 </html>

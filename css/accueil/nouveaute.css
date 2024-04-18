@@ -1,0 +1,157 @@
+/* ce container englobe toute la partie des nouveautés */
+
+.containerNouveaute {
+    width: 100%;
+    aspect-ratio: 1/1;
+    /* height: 200%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: aquamarine; */
+}
+
+.positionNouveaute {
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+}
+
+/* ce container sert à positionner correctement le containerNouveaute */
+
+.nouveaute {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerFemme,
+.containerFille,
+.containerGarcon {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.positionTitleFemme,
+.positionTitleGarcon {
+    width: 80%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.positionTitleFemme p,
+.positionTitleGarcon p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.positionTitleFille {
+    width: 80%;
+    height: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.positionTitleFille p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.positionFemme,
+.positionFille,
+.positionGarcon {   
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.carte {
+    width: 25%;
+    height: 100%;
+    border: 0.5px solid black;
+    border-radius: 10px;
+    animation: scroll 40% linear infinite;
+}
+
+.carteImg {
+    width: 100%;
+    height: 85%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.carteImg img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-color: white;
+}
+
+.containerInteraction {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px ;
+    background-color: #202020;
+}
+
+.prix,
+.ajout,
+.like {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.containerBtn {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.btn {
+    width: 15%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: white;
+    background-color: #202020
+}
+
+.btn p {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
